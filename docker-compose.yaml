@@ -1,7 +1,6 @@
-version: '3.9'
-
-services:
+﻿﻿services:
   web:
-    image: kmvishal/node-app:latest
+    build:
+      context: .
     ports:
       - "8000:8000"
